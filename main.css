@@ -50,15 +50,125 @@ html.js .loader_inner {
 	position: absolute;
 }
 
-body {
-	font-family: sans-serif;
-	font-size: 16px;
-	min-width: 320px;
-	position: relative;
-	line-height: 1.6;
-	font-family: "RobotoRegular", sans-serif;
-	overflow-x: hidden;
+body  {
+	background: #1abc9c;
 }
-.hidden {
-	display: none;
+
+header {
+	background-color: #bd4932;
+	min-width: 300px;
+	min-height: 100px;
+	height : 100%;
+ 	width: 100%;
+ 	margin-bottom : 10px;
+
+}
+.Menu {
+/*	background-color : #fffad5;*/
+	float: right;
+}
+.Menu nav a {
+color: #fffffd;
+	float:right;
+	text-decoration: none;
+	font-size : 1.4em;
+	    display: block;
+    margin: 1.5em 3em 0em 1.5em;
+    text-align: center;
+        transition: .2s all ease-out;
+    text-decoration: none;
+    padding: 2px 3px 2px 5px;
+
+	}
+
+	.Menu nav a:hover {
+		font-size: 1.6em;
+		color: #ffffff;
+
+	}
+.Main {
+	clear:both;
+	background-color : #105b63  ;
+	min-width: 300px;
+	min-height: 300px;
+	height : 100%;
+ 	width: 100%;
+	padding:0px; 
+	margin-top:0px;
+
+
+}
+.second {
+	background-color:#ffd34e  ;
+	min-width: 300px;
+	min-height: 300px;
+	height : 100%;
+ 	width: 100%;
+ 	padding :0;
+ 	margin: 0;
+ 	
+	margin-top:30px;
+}
+footer {
+	background-color: #105b63;
+	clear: both;
+}
+.content {
+
+}
+
+.logo-text {
+
+    	font-family: 'Raleway', sans-serif;
+    	font-size: 35px;
+    	font-weight: 800;
+    	line-height: 70px;
+    	text-transform:uppercase;
+    	letter-spacing: -2px;
+    	padding: 0;
+    	text-align:left;
+    	color: #FFF;
+			float:left;
+			margin:15px 0 0 65px;
+
+}
+
+.logo-text a { 
+		text-decoration: none;
+	 color: #FFF;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease; 
+
+}
+
+.logo-text a:hover {
+	color:#FFF !important;
+	padding-left: 1em;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+h1 {
+	display:inline-block;
+	padding: 10px;
+
+
+}
+.contacts {
+	text-align: center;
+	}
+.Phone {
+	padding: 20px;
+}
+.Mail {
+	padding: 10px;
+	padding-bottom: 20px;
+}
+/* Typography */
+h1, p {
+	font-family: 'Raleway', sans-serif;
+	color : white;
+	font-weight: bold;
+
 }
