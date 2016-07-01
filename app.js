@@ -1,5 +1,10 @@
 var main = function() {
 	"use strict";
-	window.alert("Welcome");
+	$(".comment-input button").on("click", function (event) {
+		var $new_comment = $("<p>");
+		var $comment_text = $(".comment-input input").val();
+		$new_comment.text($comment_text);
+		$(".comments").append($new_comment);
+	});
 };
 $(document).ready(main);
